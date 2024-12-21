@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.main-header {
+    background: #000;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.main-header .logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.main-header .main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header .main-nav ul li {
+    margin: 0 1rem;
+}
+
+.main-header .main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-header .btn-donate {
+    background: #e91e63;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.btn-primary {
+    background: #e91e63;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.info-section {
+    background: #f9f9f9;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.gallery-section {
+    padding: 3rem 0;
+    text-align: center;
+    background: #fff;
+}
+
+.gallery {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.gallery-item {
+    max-width: 300px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.gallery-item h3 {
+    margin: 1rem 0;
+}
+
+.main-footer {
+    background: #000;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.main-footer .footer-branding h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.social-icons img {
+    width: 25px;
+    margin: 0 0.5rem;
+}
