@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Farm - Kanchanpur</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #87c38f;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #4b8454;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 2rem 1rem;
+            background: url('dummy-hero-image.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .content h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .content p {
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #87c38f;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #4b8454;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        .button:hover {
+            background-color: #376239;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin: 2rem 1rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Organic Kanchanpur</h1>
+    <p>Promoting Sustainable Farming and Organic Knowledge</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Our Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Embrace the Organic Way</h1>
+    <p>Supporting local farmers and spreading awareness in Kanchanpur</p>
+    <a class="button" href="#about">Learn More</a>
+</section>
+
+<section id="about" class="content">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet eros ut justo consequat pellentesque. Praesent nec feugiat turpis, et ullamcorper neque.</p>
+</section>
+
+<section id="services" class="content">
+    <h2>Our Services</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet eros ut justo consequat pellentesque. Praesent nec feugiat turpis, et ullamcorper neque.</p>
+</section>
+
+<section id="gallery" class="content">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="dummy-image1.jpg" alt="Organic Farm">
+        <img src="dummy-image2.jpg" alt="Farmers at Work">
+        <img src="dummy-image3.jpg" alt="Fresh Produce">
+    </div>
+</section>
+
+<section id="contact" class="content">
+    <h2>Contact Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet eros ut justo consequat pellentesque. Praesent nec feugiat turpis, et ullamcorper neque.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Organic Kanchanpur. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
