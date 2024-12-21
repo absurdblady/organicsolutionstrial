@@ -3,152 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Organic Farm - Kanchanpur</title>
+    <title>Malone - Making New Best Friends</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-
-        header {
-            background-color: #87c38f;
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #4b8454;
-            display: flex;
-            justify-content: center;
-            padding: 0.5rem;
-        }
-
-        nav a {
-            color: white;
-            margin: 0 1rem;
-            text-decoration: none;
-            font-weight: 700;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        .hero {
-            text-align: center;
-            padding: 2rem 1rem;
-            background: url('dummy-hero-image.jpg') no-repeat center center;
-            background-size: cover;
-            color: white;
-        }
-
-        .hero h1 {
-            font-size: 2.5rem;
-            margin: 0;
-        }
-
-        .content {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1rem;
-        }
-
-        .content h2 {
-            font-size: 1.8rem;
-            margin-bottom: 1rem;
-        }
-
-        .content p {
-            line-height: 1.6;
-        }
-
-        footer {
-            background-color: #87c38f;
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-            margin-top: 2rem;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 0.5rem 1rem;
-            background-color: #4b8454;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 1rem;
-        }
-
-        .button:hover {
-            background-color: #376239;
-        }
-
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
-            margin: 2rem 1rem;
-        }
-
-        .gallery img {
-            width: 100%;
-            border-radius: 8px;
-        }
-    </style>
 </head>
 <body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">Malone</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#mission">Our Mission</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#involved">Get Involved</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </nav>
+            <a href="#donate" class="btn-donate">Donate Now</a>
+        </div>
+    </header>
 
-<header>
-    <h1>Welcome to Organic Kanchanpur</h1>
-    <p>Promoting Sustainable Farming and Organic Knowledge</p>
-</header>
+    <section class="hero">
+        <div class="container">
+            <h1>Making new best friends since 1994.</h1>
+            <p>Bring home a new fully trained and vaccinated family member.</p>
+            <a href="#involved" class="btn-primary">Get Involved</a>
+        </div>
+    </section>
 
-<nav>
-    <a href="#about">About Us</a>
-    <a href="#services">Our Services</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#contact">Contact</a>
-</nav>
+    <section id="mission" class="info-section">
+        <div class="container">
+            <h2>Adopting is one of the best things you can do.</h2>
+            <p>When you adopt, you’re not just giving a deserving dog a home. You’re also reducing the demand for puppy mills and other industrial-scale breeding operations that put profit before animal welfare.</p>
+        </div>
+    </section>
 
-<section class="hero">
-    <h1>Embrace the Organic Way</h1>
-    <p>Supporting local farmers and spreading awareness in Kanchanpur</p>
-    <a class="button" href="#about">Learn More</a>
-</section>
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2>Meet Our Pups</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="images/dog1.jpg" alt="Pedro">
+                    <h3>Pedro</h3>
+                    <p>Calm and wise, Pedro is the perfect companion for an older individual looking for a less active experience. Responds well to commands and has a gorgeous, lustrous coat.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/dog2.jpg" alt="Jasmine">
+                    <h3>Jasmine</h3>
+                    <p>If you have young kids, Jasmine’s the perfect dog. Part playmate, part nanny, she’ll tire them out while keeping a watchful eye on everything. She also loves to cuddle at night!</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/dog3.jpg" alt="Michael">
+                    <h3>Michael</h3>
+                    <p>Intelligent, alert, and a bit mischievous, Michael is always up for an adventure. Whether you’re jumping in the car for a weekend road trip or going for a run, he’ll be by your side.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="about" class="content">
-    <h2>About Us</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet eros ut justo consequat pellentesque. Praesent nec feugiat turpis, et ullamcorper neque.</p>
-</section>
-
-<section id="services" class="content">
-    <h2>Our Services</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet eros ut justo consequat pellentesque. Praesent nec feugiat turpis, et ullamcorper neque.</p>
-</section>
-
-<section id="gallery" class="content">
-    <h2>Gallery</h2>
-    <div class="gallery">
-        <img src="dummy-image1.jpg" alt="Organic Farm">
-        <img src="dummy-image2.jpg" alt="Farmers at Work">
-        <img src="dummy-image3.jpg" alt="Fresh Produce">
-    </div>
-</section>
-
-<section id="contact" class="content">
-    <h2>Contact Us</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet eros ut justo consequat pellentesque. Praesent nec feugiat turpis, et ullamcorper neque.</p>
-</section>
-
-<footer>
-    <p>&copy; 2024 Organic Kanchanpur. All rights reserved.</p>
-</footer>
-
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-branding">
+                <h2>Malone</h2>
+                <div class="social-icons">
+                    <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="icons/instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#mission">Our Mission</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#involved">Get Involved</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
