@@ -7,6 +7,50 @@
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        .main-header {
+            background: #000;
+            color: #fff;
+            padding: 1rem 0;
+            min-height: 100vh; /* Ensures it fills the entire viewport */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .gallery-item {
+            flex: 1 1 calc(30% - 2rem);
+            max-width: 30%;
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .gallery-item {
+                flex: 1 1 calc(45% - 1rem);
+                max-width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .gallery-item {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
     <header class="main-header">
@@ -58,6 +102,21 @@
                     <img src="images/dog3.jpg" alt="Michael">
                     <h3>Michael</h3>
                     <p>Intelligent, alert, and a bit mischievous, Michael is always up for an adventure. Whether you’re jumping in the car for a weekend road trip or going for a run, he’ll be by your side.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/dog3.jpg" alt="Buddy">
+                    <h3>Buddy</h3>
+                    <p>Loyal and playful, Buddy loves long walks and spending quality time with his family. He’s a perfect companion for an active lifestyle.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/dog2.jpg" alt="Daisy">
+                    <h3>Daisy</h3>
+                    <p>Sweet and gentle, Daisy is a cuddle enthusiast who enjoys quiet evenings and gentle walks in the park.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/dog1.jpg" alt="Charlie">
+                    <h3>Charlie</h3>
+                    <p>Energetic and fun-loving, Charlie enjoys playing fetch and being the center of attention. Great with kids and families.</p>
                 </div>
             </div>
         </div>
